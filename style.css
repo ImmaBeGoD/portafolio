@@ -192,13 +192,23 @@ top: 851px;
     left: 32px;
     top: 72px;
 
-    border: 1px solid #000000;
+    color: #495057;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border-style: none;
     outline: none;
     resize: none;
     background-color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    /* Gray/gray-400 */
+
+
 }
 
 /* BOTON DE RECTANGULO DERECHO */
@@ -230,5 +240,9 @@ top: 851px;
     text-align: center;
     top: 1000px;
     left: 500px;
+    background: #000000;
+    color: #ffffff;
+
+
 
 }

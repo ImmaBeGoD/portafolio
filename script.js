@@ -13,7 +13,9 @@ function encriptar() {
     document.getElementById("textoencriptado").style.display = "flex";
     document.getElementById("botoncortar").style.display = "flex";
     document.getElementById("textoencriptado").innerHTML = textoencriptado;
+    document.getElementById("textoencriptado").readOnly = true;
 }
+
     
 function desencriptar() {
     var texto = document.getElementById("textodesencriptado").value;
@@ -30,6 +32,8 @@ function desencriptar() {
     document.getElementById("textoencriptado").style.display = "flex";
     document.getElementById("botoncortar").style.display = "flex";
     document.getElementById("textoencriptado").innerHTML = textoencriptado;
+    document.getElementById("textoencriptado").readOnly = true;
+    
 }
 
 function cortar() {
