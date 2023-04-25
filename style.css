@@ -1,0 +1,234 @@
+.logopagina{
+    display: flex;
+    flex-direction: column  ;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+#textodesencriptado{
+    position: absolute;
+    width: 577px;
+    height: 480px;
+    left: 240px;
+    top: 168px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    border-style: none;
+    outline: none;
+    resize: none;
+    background-color: #E5E5E5;
+}
+
+#terminosycondiciones{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+font-size: 13px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 851px;
+
+}
+
+/*BOTONERA*/
+.botonera{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+/*BOTON ENCRIPTAR*/
+#botonencriptar{
+    /* Auto layout */
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* White */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    order: 0;
+    flex-grow: 1;
+}
+
+/*BOTON DESENCRIPTAR*/
+#botondesencriptar{
+    /* Auto layout */
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Inside auto layout */
+    order: 1;
+    flex-grow: 1;
+}
+
+/*RECTANGULO DERECHO*/
+.rectaguloderecho{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 20px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#munheco{
+    display: absolute;
+    position: relative;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 283px;
+}
+
+#msj1{
+    position: relative;
+    text-align: center;
+    top: 282px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+}
+
+#msj2{
+    position: relative;
+    text-align: center;
+    top: 300px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+#textoencriptado{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas. */
+
+    display: none;
+    position: relative;
+    width: 336px;
+    height: 781px;
+    left: 32px;
+    top: 72px;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-style: none;
+    outline: none;
+    resize: none;
+    background-color: #FFFFFF;
+}
+
+/* BOTON DE RECTANGULO DERECHO */
+#botoncortar{
+    display: none;
+    /* Auto layout */
+    padding: 24px;
+    margin-left: 35px;
+    gap: 8px;
+    position: relative;
+    width: 336px;
+    height: 67px;
+    top: 80px;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
+.piedepagina{
+    position: absolute;
+    text-align: center;
+    top: 1000px;
+    left: 500px;
+
+}
