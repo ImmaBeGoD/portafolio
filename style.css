@@ -1,6 +1,7 @@
 
 body{
     background-color: #E5E5E5; 
+    width: 1440px;
 }
 
 .logopagina{
@@ -93,7 +94,6 @@ body{
     border: 1px solid #0A3871;
     background: #D8DFE8;
 
-
     font-family: 'Inter';
     font-style: normal;
     text-align: center;
@@ -127,7 +127,6 @@ body{
 
 #msj1{
     position: relative;
-    text-align: center;
     top: 282px;
     margin-top: 5px;
 
@@ -142,7 +141,6 @@ body{
 
 #msj2{
     position: relative;
-    text-align: center;
     top: 300px;
     margin-top: 5px;
 
@@ -164,7 +162,7 @@ body{
     width: 336px;
     height: 781px;
     left: 32px;
-    top: 72px;
+    top: 32px;
     background-color: #FFFFFF;
 
     font-family: 'Inter';
@@ -202,8 +200,9 @@ body{
 .piedepagina{
     position: absolute;
     text-align: center;
+    border-radius: 20px;
     top: 1000px;
-    left: 500px;
+    width: 1440px;
     background: #000000;
     color: #ffffff;
 }
