@@ -2,7 +2,6 @@
 body{
     background-color: #F3F5FC; 
     max-width: 1440px;
-
 }
 
 header{
@@ -17,8 +16,6 @@ header{
     height: 48px;
     left: 40px;
     top: 40px;
-
-
 
     @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
@@ -96,8 +93,6 @@ header{
         height: 248px;
         left: 40px;
         top: 180px;
-
-
     }
 
     @media only screen and (max-width: 375px) {
@@ -308,10 +303,11 @@ header{
         /* ... */
         display: none;
     }
+
     @media only screen and (max-width: 375px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
-    
+        display: none;
     }
 }
 
@@ -340,9 +336,8 @@ header{
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        
-
     }
+
     @media only screen and (max-width: 375px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
@@ -381,8 +376,8 @@ header{
         order: 1;   
         align-self: stretch;
         flex-grow: 0;
-
     }
+
     @media only screen and (max-width: 375px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
@@ -429,9 +424,8 @@ header{
         width: 580px;
         margin-left: 22px;
         height: 180px;
-
-
     }
+
     @media only screen and (max-width: 375px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
@@ -446,7 +440,6 @@ header{
             
         border-radius: 32px;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-
     }
 }
 
@@ -487,6 +480,7 @@ header{
         margin-right: 32px;
         margin-top: 0px;
     }
+
       @media only screen and (max-width: 375px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
@@ -518,6 +512,7 @@ header{
         height: 30px;
         top: 1050px;
     }
+
     @media only screen and (max-width: 375px) {
     /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
     /* ... */
