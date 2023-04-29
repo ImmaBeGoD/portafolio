@@ -14,6 +14,7 @@ function encriptar() {
     document.getElementById("botoncortar").style.display = "flex";
     document.getElementById("textoencriptado").innerHTML = textoencriptado;
     document.getElementById("textoencriptado").readOnly = true;
+      
 }
 
     

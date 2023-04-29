@@ -1,25 +1,72 @@
 
 body{
     background-color: #F3F5FC; 
-    width: 1440px;
+    max-width: 1440px;
+
 }
 
-.logopagina{
-    position: absolute;
+header{
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
+
+    position: absolute;
     width: 120px;
     height: 48px;
     left: 40px;
     top: 40px;
 
+
+
     @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
+        position: absolute;
+        width: 31.09px;
+        height: 50.58px;
+        left: 40px;
+        top: 73.42px;
+    }
 
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+.logopagina{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+    
+    @media only screen and (max-width: 768px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        position: absolute;
+        left: 5.21%;
+        right: 90.74%;
+        top: 6.25%;
+        bottom: 89.8%;
+    }
+
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        position: absolute;
+        left: 4.27%;
+        right: 87.2%;
+        top: 25%;
+        bottom: 25%;
     }
 }
 
@@ -51,7 +98,17 @@ body{
         top: 180px;
 
 
-      }
+    }
+
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        position: absolute;
+        width: 343px;
+        height: 186px;
+        left: 16px;
+        top: 152px;
+    }
 }
 
 #terminosycondiciones{
@@ -67,20 +124,31 @@ body{
     left: 240px;
     top: 851px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
     @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
-        /* ... */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        gap: 8px;
-        
-        position: absolute;
-        width: 229px;
-        height: 18px;
+        /* ... */ 
         left: 40px;
         top: 836px;
+    }
+
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        width: 250px;
+        height: 18px;
+        top: 450px;
+        left: 16px;
     }
 }
 
@@ -105,7 +173,19 @@ body{
         height: 67px;
         left: 40px;
         top: 870px;
-      }
+    }
+
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        flex-direction: column;
+        align-items: center;
+
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 485px;         
+    }   
 }
 
 /*BOTON ENCRIPTAR*/
@@ -127,14 +207,22 @@ body{
     flex-grow: 1;
     color: #FFFFFF;
 
-        @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
         width: 332px;
-        }
     }
+        
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        width: 343px;
+        height: 67px;     
+    }
+}
 /*BOTON DESENCRIPTAR*/
 #botondesencriptar{
+    box-sizing: border-box;
     padding: 24px;
     gap: 8px;
     width: 328px;
@@ -157,10 +245,16 @@ body{
         /* ... */
         width: 332px;
     }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */        
+        width: 343px;
+        height: 67px;
+    }
 }
 
 /*RECTANGULO DERECHO*/
-.rectaguloderecho{
+.rectanguloderecho{
     position: absolute;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
@@ -184,16 +278,22 @@ body{
         height: 300px;
         left: 40px;
         top: 450px;
-
-        /* White */
-
-        background: #FFFFFF;
-        /* shadow */
-
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 32px;
-
-      }
+    }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 321px;
+        height: 186px;
+        left: 16px;
+        top: 707px;
+    }
 }
 
 #munheco{
@@ -207,7 +307,12 @@ body{
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
         display: none;
-      }
+    }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+    
+    }
 }
 
 #msj1{
@@ -228,15 +333,28 @@ body{
         /* ... */
         width: 624px;
         height: 29px;
+        margin-top: 110px;
 
         /* Inside auto layout */
         flex: none;
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        margin-top: 110px;
+        
 
-      }
+    }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        width: 309px;
+        height: 58px;
+        margin-top: 30px;
+
+        flex: none;
+        order: 1;
+        align-self: center;   
+        flex-grow: 0;
+    }
 }
 
 #msj2{
@@ -264,19 +382,33 @@ body{
         align-self: stretch;
         flex-grow: 0;
 
-      }
+    }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        width: 309px;
+        height: 58px;
+        margin-top: 5px;
+
+        flex: none;
+        order: 1;
+        align-self: center;   
+        flex-grow: 0;
+    }
 }
 
 #textoencriptado{
     display: none;
-    position: relative;
+    position: flex;
+    flex-direction: column;
+    align-items: center;
     border-style: none;
     outline: none;
     resize: none;
     width: 336px;
     height: 781px;
-    left: 32px;
-    top: 32px;
+    margin-left: 32px;
+    margin-top: 32px;
     background-color: #FFFFFF;
 
     font-family: 'Inter';
@@ -287,40 +419,51 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #495057;
 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
     @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
         width: 580px;
-        left: 22px;
+        margin-left: 22px;
         height: 180px;
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 150%;
-        /* or 36px */
-        color: #495057;
 
+    }
+    @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        position: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px;
+        width: 329px;
+        height: 484px;
+        margin-top: -10px;
+        margin-left: -10px;
+            
+        border-radius: 32px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-      }
+    }
 }
 
 /* BOTON DE RECTANGULO DERECHO */
 #botoncortar{
+    box-sizing: border-box;
     display: none;
-    position: relative;
+    position: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 24px;
-    margin-left: 35px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 48px;
     gap: 8px;
     width: 336px;
     height: 67px;
-    top: 80px;
     border-radius: 24px;
 
     font-family: 'Inter';
@@ -330,30 +473,33 @@ body{
     line-height: 19px;
     border: 1px solid #0A3871;
     background: #D8DFE8;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
     
     @media only screen and (max-width: 768px) {
         /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
         /* ... */
-        box-sizing: border-box;
-        /* Auto layout */
-        display: none;
-        position: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 24px;
-        gap: 8px;
-        top: 20px;
         width: 554px;
-        height: 67px;
-        border: 1px solid #0A3871;
-        border-radius: 24px;
-        /* Inside auto layout */
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 0px;
+    }
+      @media only screen and (max-width: 375px) {
+        /* estilos aplicados solo cuando la pantalla es menor o igual a 768px */
+        /* ... */
+        width: 279px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        
         flex: none;
         order: 1;
-        align-self: stretch;
+        align-self: center;
         flex-grow: 0;
-
-      }
+    }
 }
 
 /*FOOTER*/
@@ -377,6 +523,6 @@ body{
     /* ... */
         width: 375px;
         height: 30px;
-        top: 500px;
-}
+        top: 1300px;
+    }
 }
